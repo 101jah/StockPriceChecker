@@ -7,7 +7,7 @@ let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
 module.exports = function (app) {
   
-  let uri = 'mongodb+srv://101jah:Love123@cluster0.mapnck5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+  let uri = 'mongodpapiurl'; //add mongo db authentication url 
 
   mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
